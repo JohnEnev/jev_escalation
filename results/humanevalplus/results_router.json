@@ -1,0 +1,1642 @@
+[
+  {
+    "task_id": "HumanEval/0",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.97,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/1",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.96,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/2",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/3",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/4",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/5",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/6",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.98,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/7",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/8",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/9",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/10",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.82,
+      "hard": 0.18
+    },
+    "jev_confidence": 0.63,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/11",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/12",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/13",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/14",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/15",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/16",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/17",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.98,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/18",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.97,
+      "hard": 0.03
+    },
+    "jev_confidence": 0.93,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/19",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/20",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/21",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/22",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/23",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/24",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/25",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/26",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/27",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/28",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/29",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/30",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/31",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.98,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/32",
+    "jev_choice": "hard",
+    "jev_probs": {
+      "hard": 0.67,
+      "easy": 0.33
+    },
+    "jev_confidence": 0.34,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/33",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.96,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/34",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/35",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/36",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/37",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/38",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.96,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/39",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.7,
+      "hard": 0.3
+    },
+    "jev_confidence": 0.4,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/40",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.93,
+      "hard": 0.07
+    },
+    "jev_confidence": 0.86,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/41",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.97,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/42",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/43",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/44",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/45",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/46",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.02,
+      "easy": 0.98
+    },
+    "jev_confidence": 0.95,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/47",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/48",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/49",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.83,
+      "hard": 0.17
+    },
+    "jev_confidence": 0.65,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/50",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/51",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/52",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/53",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/54",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/55",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/56",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/57",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/58",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/59",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.03,
+      "easy": 0.97
+    },
+    "jev_confidence": 0.94,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/60",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/61",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/62",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/63",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.04,
+      "easy": 0.96
+    },
+    "jev_confidence": 0.93,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/64",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/65",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.03,
+      "easy": 0.97
+    },
+    "jev_confidence": 0.95,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/66",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/67",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.97,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/68",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/69",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/70",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/71",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/72",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/73",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/74",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/75",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.97,
+      "hard": 0.03
+    },
+    "jev_confidence": 0.95,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/76",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.85,
+      "hard": 0.15
+    },
+    "jev_confidence": 0.69,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/77",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.06,
+      "easy": 0.94
+    },
+    "jev_confidence": 0.89,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/78",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/79",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/80",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/81",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/82",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/83",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.12,
+      "easy": 0.88
+    },
+    "jev_confidence": 0.75,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/84",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/85",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/86",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.95,
+      "hard": 0.05
+    },
+    "jev_confidence": 0.9,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/87",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/88",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/89",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.97,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/90",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/91",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.96,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/92",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/93",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.97,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/94",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.96,
+      "hard": 0.04
+    },
+    "jev_confidence": 0.92,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/95",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/96",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.98,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/97",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/98",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/99",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.93,
+      "hard": 0.07
+    },
+    "jev_confidence": 0.87,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/100",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/101",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/102",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/103",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/104",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/105",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.96,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/106",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.02,
+      "easy": 0.98
+    },
+    "jev_confidence": 0.96,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/107",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/108",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.14,
+      "easy": 0.86
+    },
+    "jev_confidence": 0.72,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/109",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.04,
+      "easy": 0.96
+    },
+    "jev_confidence": 0.92,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/110",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/111",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/112",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/113",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.02,
+      "easy": 0.98
+    },
+    "jev_confidence": 0.97,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/114",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.03,
+      "easy": 0.97
+    },
+    "jev_confidence": 0.95,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/115",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/116",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.97,
+      "hard": 0.03
+    },
+    "jev_confidence": 0.95,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/117",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/118",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.94,
+      "hard": 0.06
+    },
+    "jev_confidence": 0.88,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/119",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.29,
+      "easy": 0.71
+    },
+    "jev_confidence": 0.43,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/120",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/121",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/122",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/123",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/124",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.97,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/125",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.02,
+      "easy": 0.98
+    },
+    "jev_confidence": 0.96,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/126",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.98,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/127",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.96,
+      "hard": 0.04
+    },
+    "jev_confidence": 0.93,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/128",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/129",
+    "jev_choice": "hard",
+    "jev_probs": {
+      "easy": 0.19,
+      "hard": 0.81
+    },
+    "jev_confidence": 0.63,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/130",
+    "jev_choice": "hard",
+    "jev_probs": {
+      "hard": 0.75,
+      "easy": 0.25
+    },
+    "jev_confidence": 0.51,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/131",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/132",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.06,
+      "easy": 0.94
+    },
+    "jev_confidence": 0.87,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/133",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.95,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/134",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.95,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/135",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/136",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/137",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.7,
+      "hard": 0.3
+    },
+    "jev_confidence": 0.4,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/138",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.97,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/139",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.98,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/140",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.02,
+      "easy": 0.98
+    },
+    "jev_confidence": 0.95,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/141",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/142",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.96,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/143",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/144",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.98,
+      "hard": 0.02
+    },
+    "jev_confidence": 0.96,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/145",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.03,
+      "easy": 0.97
+    },
+    "jev_confidence": 0.94,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/146",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.04,
+      "easy": 0.96
+    },
+    "jev_confidence": 0.92,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/147",
+    "jev_choice": "hard",
+    "jev_probs": {
+      "hard": 0.5,
+      "easy": 0.5
+    },
+    "jev_confidence": 0.01,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/148",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/149",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.98,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/150",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.98,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/151",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 0.99,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/152",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/153",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 0.99,
+      "hard": 0.01
+    },
+    "jev_confidence": 0.97,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/154",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.02,
+      "easy": 0.98
+    },
+    "jev_confidence": 0.97,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/155",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/156",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.97,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/157",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/158",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.01,
+      "easy": 0.99
+    },
+    "jev_confidence": 0.99,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/159",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/160",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.19,
+      "easy": 0.81
+    },
+    "jev_confidence": 0.62,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/161",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": true
+  },
+  {
+    "task_id": "HumanEval/162",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "hard": 0.0,
+      "easy": 1.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  },
+  {
+    "task_id": "HumanEval/163",
+    "jev_choice": "easy",
+    "jev_probs": {
+      "easy": 1.0,
+      "hard": 0.0
+    },
+    "jev_confidence": 1.0,
+    "passed": false
+  }
+]

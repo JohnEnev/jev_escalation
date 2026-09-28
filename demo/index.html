@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jev escalation · interactive frontier</title>
+<style>
+:root{font:16px system-ui,sans-serif;color:#212529;background:#f8f9fa}body{max-width:990px;margin:auto;padding:2rem 1rem}h1{margin-bottom:.2rem}p{line-height:1.5;color:#495057}.panel{background:white;border:1px solid #dee2e6;border-radius:10px;padding:1.3rem;margin:1rem 0}label{display:inline-block;margin:0 2rem 1rem 0}select,input{accent-color:#d9480f}input{vertical-align:middle}svg{width:100%;height:auto}table{border-collapse:collapse;width:100%}th,td{padding:.55rem;text-align:right;border-bottom:1px solid #dee2e6}th:first-child,td:first-child{text-align:left}tr.selected{background:#fff4e6}.note{font-size:.85rem}#error{color:#c92a2a}
+</style>
+<h1>Checking the answer beats guessing the difficulty</h1>
+<p>Explore the cached outcomes for 164 HumanEval problems. The threshold is applied to Jev's estimated probability that the 4B answer is correct; a lower score triggers a 32B attempt.</p>
+<div class="panel"><label>Benchmark <select id="bench"><option value="humaneval">HumanEval</option><option value="humanevalplus">HumanEval+</option></select></label><label>Escalate below <input id="threshold" type="range" min="1" max="9" value="6"><strong id="value">0.6</strong></label><p id="error" role="alert"></p><div id="summary"></div></div>
+<div class="panel"><h2>Accuracy–cost frontier</h2><svg id="plot" viewBox="0 0 800 430" role="img" aria-label="Accuracy versus relative cost chart"></svg><p class="note">Cost proxy: one 4B call = 1×; one 32B call = 8×. Jev inference and test execution are excluded.</p></div>
+<div class="panel"><h2>At the selected threshold</h2><table><thead><tr><th>Strategy</th><th>Solved / 164</th><th>pass@1</th><th>Relative cost</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p class="note">Data: cleaned JSONs in <code>results/</code>. Serve the project root with <code>python3 -m http.server 8765</code>, then open <a href="http://localhost:8765/demo/">localhost:8765/demo/</a>. Generated completions are untrusted; this page only reads cached outcomes.</p>
+<script>
+const $ = id => document.getElementById(id), cache = {};
+const names = ['small','large','continuation_first_line','continuation_half','escalation_scores','router'];
+async function load(bench){
+  if(cache[bench]) return cache[bench];
+  const entries = await Promise.all(names.map(async name => {
+    const response = await fetch(`../results/${bench}/results_${name}.json`);
+    if(!response.ok) throw Error(`Could not load ${name}: HTTP ${response.status}`);
+    return [name, Object.fromEntries((await response.json()).map(r => [r.task_id,r]))];
+  }));
+  return cache[bench] = Object.fromEntries(entries);
+}
+function stub(c){const s=c.trim().toLowerCase();return s==='pass'||s===''||s.includes('your code here')}
+function metrics(d,t,mode){
+  let solved=0,cost=0,escalated=0,retried=0;
+  for(const id of Object.keys(d.small)){
+    const esc=d.escalation_scores[id].jev_prob_correct<t;
+    const retry=esc&&stub(d.large[id].completion);
+    let answer=d.small[id], c=1;
+    if(mode==='large'){answer=d.large[id];c=8}
+    if(mode==='route'){answer=d.router[id].jev_choice==='hard'?d.large[id]:d.small[id];c=answer===d.large[id]?8:1}
+    if(['cascade','continue','hybrid'].includes(mode)&&esc){
+      escalated++;
+      answer=mode==='continue'?d.continuation_half[id]:mode==='hybrid'&&retry?d.continuation_first_line[id]:d.large[id];
+      c=9+(mode==='hybrid'&&retry?8:0);
+      if(mode==='hybrid'&&retry)retried++;
+    }
+    solved+=Number(answer.passed);cost+=c;
+  }
+  return {solved,cost:cost/164,rate:solved/164,escalated,retried};
+}
+function chart(d,t){
+  const svg=$('plot'), series=[['cascade','#1c7ed6','Restart'],['continue','#868e96','Continue half'],['hybrid','#d9480f','Restart + stub retry']];
+  const x=v=>55+(v-0.5)*72,y=v=>365-(v-0.55)*750;
+  const line=(x1,y1,x2,y2,stroke='#dee2e6')=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${stroke}"/>`;
+  const text=(x1,y1,s,size=13)=>`<text x="${x1}" y="${y1}" font-size="${size}" fill="#495057">${s}</text>`;
+  let parts=[line(55,365,745,365,'#495057'),line(55,30,55,365,'#495057')];
+  for(let c=1;c<=9;c+=2)parts.push(line(x(c),365,x(c),370),text(x(c)-10,393,`${c}×`));
+  for(let r=.55;r<=.95;r+=.1)parts.push(line(50,y(r),745,y(r)),text(8,y(r)+4,`${Math.round(r*100)}%`));
+  for(const [mode,color,label] of series){
+    const pts=Array.from({length:9},(_,i)=>metrics(d,(i+1)/10,mode));
+    parts.push(`<polyline points="${pts.map(p=>`${x(p.cost)},${y(p.rate)}`).join(' ')}" fill="none" stroke="${color}" stroke-width="3"/>`);
+    for(const p of pts)parts.push(`<circle cx="${x(p.cost)}" cy="${y(p.rate)}" r="3" fill="${color}"/>`);
+    const current=metrics(d,t,mode);
+    parts.push(`<circle cx="${x(current.cost)}" cy="${y(current.rate)}" r="7" fill="white" stroke="${color}" stroke-width="3"/>`);
+  }
+  for(const [mode,color,label] of [['small','#343a40','Always 4B'],['large','#343a40','Always 32B']]){
+    const p=metrics(d,t,mode);parts.push(`<circle cx="${x(p.cost)}" cy="${y(p.rate)}" r="5" fill="${color}"/>`);
+  }
+  series.forEach(([_,color,label],i)=>parts.push(`<circle cx="${105+i*215}" cy="${415}" r="5" fill="${color}"/>`,text(115+i*215,420,label,12)));
+  svg.innerHTML=parts.join('');
+}
+async function render(){
+  const bench=$('bench').value,t=Number($('threshold').value)/10;
+  $('value').textContent=t.toFixed(1);$('error').textContent='';
+  try{
+    const d=await load(bench);
+    if(bench!==$('bench').value)return;
+    const strategies=[['Always 4B','small'],['Always 32B','large'],['Route before generation','route'],['Verify → restart','cascade'],['Verify → continue half','continue'],['Verify → restart → retry stubs','hybrid']];
+    $('rows').innerHTML=strategies.map(([label,mode])=>{const p=metrics(d,t,mode);return `<tr class="${mode==='hybrid'?'selected':''}"><td>${label}</td><td>${p.solved}</td><td>${(p.rate*100).toFixed(1)}%</td><td>${p.cost.toFixed(2)}×</td></tr>`}).join('');
+    const h=metrics(d,t,'hybrid');$('summary').textContent=`At ${t.toFixed(1)}: ${h.escalated} escalations, ${h.retried} stub retries; ${h.solved}/164 solved at ${h.cost.toFixed(2)}× cost.`;
+    chart(d,t);
+  }catch(e){$('error').textContent=`${e.message}. Serve the project root over HTTP (instructions below).`}
+}
+$('bench').addEventListener('change',render);$('threshold').addEventListener('input',render);render();
+</script></html>
