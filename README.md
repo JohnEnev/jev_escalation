@@ -1,3 +1,6 @@
+Link to substack article:
+Link to HF Space: https://huggingface.co/spaces/JohnEnev/jev_router
+
 # Jev escalation: check the answer, then decide whether to escalate
 
 On 164 HumanEval problems, checking a Qwen3-4B *answer* with Jev and conditionally restarting on Qwen3-32B outperformed routing from the prompt alone. At the illustrative threshold **p(correct) < 0.6**, restarting and retrying cold-32B stubs with a one-line 4B prefix solved **138/164 (84.1%)** at **3.49×** relative cost, versus **120/164 (73.2%)** for always-4B and **114/164 (69.5%)** for always-32B. On HumanEval+, using the same answers, scores and threshold with stricter tests: **127/164 (77.4%)** versus **111/164 (67.7%)** and **106/164 (64.6%)**, respectively. These are cached, single-sample outcomes, not a general model ranking.
