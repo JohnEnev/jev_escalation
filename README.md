@@ -1,4 +1,4 @@
-Link to substack article:
+Link to substack article: https://john463212.substack.com/p/with-jev-routing-after-the-answer
 Link to HF Space: https://huggingface.co/spaces/JohnEnev/jev_router
 
 # Jev escalation: check the answer, then decide whether to escalate
